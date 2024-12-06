@@ -1,0 +1,137 @@
+/* Titlecard container */
+.titlecard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+/* Health text styling */
+.health {
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Tracker text styling */
+.tracker {
+  color: green;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  bottom: -60px;
+  right: 1300px;
+}
+
+/* Contact section right alignment */
+.Contact {
+  position: absolute;
+  right: 10px;  /* Aligns to the right */
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  bottom: -20px;
+  top:15px;
+}
+.search {
+  position: absolute;
+  left: 45%; /* Position from center */
+  transform: translateX(-50%); /* Centering the element */
+  display: flex;
+  align-items: center;
+  gap: 0px; /* Space between input and button */
+  bottom: -25px;
+}
+
+.search input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  width: 400px;
+  padding-left: 30px;
+  height: 25px;
+  border-radius: 30px;
+}
+
+.search .searchbtn {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: green;
+  color: aliceblue;
+}
+
+
+.Contact h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+
+/* Heartbeat animation for heart icon */
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 1s infinite;
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 1px;
+  left: 150px;
+}
+.noUnderline{
+  text-decoration: none;
+  color: inherit;
+}
+.noUnderline:hover{
+ color: rgb(37, 15, 237);
+}
+.image-background {
+  width: 100%; /* Set width and height as needed */
+  height: 1000px;
+  background-image: url('https://images.unsplash.com/photo-1457131760772-7017c6180f05?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Use the relative path */
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.descriptionOfhomepage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the left */
+  justify-content: center; /* Centers content vertically */
+  text-align: left; /* Aligns text to the left */
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1;
+
+  padding: 1px;
+  max-width: 900px;
+  margin: 0; /* Removes auto margin to keep it aligned left */
+  height: 80vh; /* Adjust based on desired height */
+  padding-left: 20px; /* Adds padding on the left for a bit of spacing */
+}
+
+
+

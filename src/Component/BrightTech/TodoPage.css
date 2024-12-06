@@ -1,0 +1,84 @@
+/* Center the main heading */
+.TableDetails {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #444;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the table */
+  .table {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the table on the page */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header styling */
+  .table th {
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table cell styling */
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Alternate row colors for better readability */
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect for rows */
+  .table tr:hover {
+    background-color: #e1f7d5;
+  }
+  
+  /* Add some spacing between rows */
+  .table tbody tr {
+    transition: background-color 0.2s ease;
+  }
+
+
+  
+
+/* Button Styling */
+.gotodescriptionpage {
+  background-color: #007BFF; /* Primary blue color */
+  color: white; /* White text for contrast */
+  font-size: 16px; /* Adjust the font size */
+  padding: 10px 20px; /* Add padding for a larger clickable area */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Button Hover Effects */
+.gotodescriptionpage:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge button */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Increase shadow depth */
+}
+
+/* Button Active State */
+.gotodescriptionpage:active {
+  background-color: #004085; /* Even darker blue for active state */
+  transform: scale(0.98); /* Slightly shrink button */
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow depth */
+}
+
+  
+ 

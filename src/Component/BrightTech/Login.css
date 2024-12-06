@@ -1,0 +1,115 @@
+/* Common styles for Username and Password input fields */
+/* Additional styles for login form layout */
+.UserCompo, .pass, .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+}
+.passwd {
+  padding: 10px;
+  width: 200px; /* Set smaller width for both */
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Adjusted font size for a uniform look */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.user {
+  padding: 10px;
+  width: 17%; /* Set smaller width for both */
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Adjusted font size for a uniform look */
+  box-sizing: border-box;
+}
+
+
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Prevent scrolling */
+  background-color: #f5f5f5; /* Optional: Light background */
+}
+
+
+
+/* Styling for the Login button */
+.logincom {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logincom:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Background image for full screen */
+.image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ensure it covers the full viewport height */
+  background-image: url('https://images.unsplash.com/photo-1457131760772-7017c6180f05?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Places the image behind the content */
+}
+
+/* Logo styling */
+.HealthTrackerlogoinlogin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the left */
+  justify-content: center; /* Centers content vertically */
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  line-height: 1;
+  height: 100vh; /* Full viewport height */
+  padding-left: 100px;
+}
+
+/* Prevent scrolling on the body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Disable scrollbars */
+}
+
+.user, .passwd {
+  padding: 10px;
+  width: 250px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.UserCompo, .pass, .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+}

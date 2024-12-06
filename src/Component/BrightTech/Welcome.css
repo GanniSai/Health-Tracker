@@ -1,0 +1,87 @@
+.getusername{
+    font-size: 25px;
+    color: rgb(68, 0, 255);
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 25px;
+}
+.userLogout{
+    position: absolute; /* Position the button relative to the page */
+    top: 15px; /* Distance from the top of the page */
+    right: 10px; /* Distance from the right side of the page */
+    padding: 8px 8px; /* Add padding for the button */
+    background-color: #ff3700; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 15px; 
+    text-decoration: none;
+    color: inherit; 
+}
+.noUnderline{
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+  
+  .taskname1, .taskname2,.taskname3,.taskname4 {
+    font-size: 20px; /* Adjust font size */
+    color: #333; /* Font color */
+    display: block; /* Ensures the text is on a new line inside the box */
+  }
+  .tasks1,.tasks2,.tasks3,.tasks4{
+    display: inline-block; /* Makes the divs appear side by side */
+    border: 1px solid #ccc; /* Optional: Add borders for clarity */
+    padding: 108px;
+    margin: 35px; /* Spacing between boxes */
+    background-color: #ff7c6e; /* Optional: Background color for better visibility */
+    text-align: center;
+    border-radius: 8px; /* Optional: Rounded corners */
+    width: 220px; /* Fixed width */
+    height: 15px;
+   
+  }
+
+  /* Styling for the button */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  font-size: 18px; /* Font size for better visibility */
+  padding: 10px 20px; /* Padding for a comfortable button size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.Btn- {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for the button */
+.Btn- button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  font-size: 18px; /* Font size for better visibility */
+  padding: 10px 20px; /* Padding for a comfortable button size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+  
+
+
+
+
+  
+  
+  
+  
